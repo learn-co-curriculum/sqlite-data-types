@@ -57,7 +57,8 @@ With these three types in hand, we are going to be able to work our way through 
 
 You may encounter the `BLOB` datatype while you're Googling or doing any further reading on SQLite. For now, we will not use `BLOB`. It is generally used for holding binary data.
 
-##Bonus: Note on SQLite
+## Bonus: Note on SQLite
+
 To increase its compatibility with other database engines (E.G. mySQL or PostgreSQL), SQLite allows the programmer to use other common datatypes outside of the four mentioned above. This is why we are referring to `TEXT INTEGER REAL BLOB` as datatype "categories". All other common datatypes are lumped into one of the four existing datatypes recognized by SQLite. 
 
 For example, `INT` is a common datatype used outside of SQLite. SQLite won't complain if you define a column as an `INT` datatype. It will simply lump it into the `INTEGER` category and store it as such.
